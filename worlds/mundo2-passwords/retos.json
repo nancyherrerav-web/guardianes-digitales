@@ -1,0 +1,90 @@
+{
+  "mundo": 2,
+  "retos": [
+    {
+      "id": "m2-r01",
+      "mision": 1,
+      "tipo": "opcion",
+      "enunciado": "Luis nació en 2009 y es hincha de «Alianza». ¿Cuál es la contraseña MÁS fuerte para él?",
+      "opciones": [
+        "Alianza2009!",
+        "mnbvcxz",
+        "bosque-lámpara-río-nube",
+        "Luis_2009"
+      ],
+      "respuestaCorrecta": "bosque-lámpara-río-nube",
+      "pista": "¿Aparece algún dato de Luis? ¿Qué tan larga es?",
+      "explicacion": "El largo y la imprevisibilidad pesan más que los símbolos. «Alianza2009!» parece fuerte, pero un atacante prueba primero nombres y años."
+    },
+    {
+      "id": "m2-r02",
+      "mision": 1,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 2 de la misión 1.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    },
+    {
+      "id": "m2-r03",
+      "mision": 1,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 3 de la misión 1.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    },
+    {
+      "id": "m2-r04",
+      "mision": 2,
+      "tipo": "opcion",
+      "enunciado": "Te llega un código de verificación que no pediste. ¿Qué significa y qué haces?",
+      "opciones": [
+        "Alguien intenta entrar a mi cuenta: no comparto el código y cambio mi contraseña",
+        "Es un premio: lo comparto para reclamarlo",
+        "Es un error del sistema: lo ignoro sin hacer nada"
+      ],
+      "respuestaCorrecta": "Alguien intenta entrar a mi cuenta: no comparto el código y cambio mi contraseña",
+      "pista": "El código solo llega cuando alguien intenta entrar con tu contraseña.",
+      "explicacion": "Si llega un código que no pediste, alguien ya conoce tu contraseña. Hay que cambiarla y no compartir el código."
+    },
+    {
+      "id": "m2-r05",
+      "mision": 2,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 2 de la misión 2.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    },
+    {
+      "id": "m2-r06",
+      "mision": 2,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 3 de la misión 2.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    }
+  ]
+}

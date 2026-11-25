@@ -1,0 +1,90 @@
+{
+  "mundo": 4,
+  "retos": [
+    {
+      "id": "m4-r01",
+      "mision": 1,
+      "tipo": "opcion",
+      "enunciado": "Una foto muestra a un grupo de estudiantes sonriendo. ¿Qué detalle te haría sospechar más que fue generada con IA?",
+      "opciones": [
+        "Una mano con seis dedos",
+        "Que la foto es brillante",
+        "Que hay muchas personas"
+      ],
+      "respuestaCorrecta": "Una mano con seis dedos",
+      "pista": "Las manos y los textos suelen fallar en las imágenes de IA.",
+      "explicacion": "Las manos deformes, los textos ilegibles y las sombras incoherentes son señales típicas. Que sea brillante o tenga mucha gente no prueba nada."
+    },
+    {
+      "id": "m4-r02",
+      "mision": 1,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 2 de la misión 1.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    },
+    {
+      "id": "m4-r03",
+      "mision": 1,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 3 de la misión 1.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    },
+    {
+      "id": "m4-r04",
+      "mision": 2,
+      "tipo": "opcion",
+      "enunciado": "«Diario Horizonte Hoy»: «¡URGENTE! El colegio cerrará para siempre mañana. ¡Comparte antes de que lo borren!». No tiene autor, fecha ni fuente. ¿Qué haces primero?",
+      "opciones": [
+        "Lo comparto a mis contactos",
+        "Busco el aviso en la web oficial del colegio o pregunto a un docente",
+        "Comento que es mentira sin comprobarlo",
+        "Lo ignoro y no digo nada"
+      ],
+      "respuestaCorrecta": "Busco el aviso en la web oficial del colegio o pregunto a un docente",
+      "pista": "Antes de reaccionar, ¿dónde confirmarías que es verdad?",
+      "explicacion": "Primero se verifica en la fuente oficial. Compartir sin verificar es lo que hace viral a un rumor."
+    },
+    {
+      "id": "m4-r05",
+      "mision": 2,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 2 de la misión 2.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    },
+    {
+      "id": "m4-r06",
+      "mision": 2,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 3 de la misión 2.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    }
+  ]
+}

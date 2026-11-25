@@ -1,0 +1,90 @@
+{
+  "mundo": 3,
+  "retos": [
+    {
+      "id": "m3-r01",
+      "mision": 1,
+      "tipo": "opcion",
+      "enunciado": "Los visitantes usan la misma red que el laboratorio de computación. ¿Qué defensa pones y dónde?",
+      "opciones": [
+        "Firewall entre la WiFi de invitados y la red del laboratorio",
+        "Firewall detrás del servidor",
+        "Antivirus en el router",
+        "Más contraseñas en el servidor"
+      ],
+      "respuestaCorrecta": "Firewall entre la WiFi de invitados y la red del laboratorio",
+      "pista": "Piensa en separar a los visitantes de los equipos del colegio.",
+      "explicacion": "Separar las redes limita el daño si un invitado tiene un equipo infectado."
+    },
+    {
+      "id": "m3-r02",
+      "mision": 1,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 2 de la misión 1.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    },
+    {
+      "id": "m3-r03",
+      "mision": 1,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 3 de la misión 1.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    },
+    {
+      "id": "m3-r04",
+      "mision": 2,
+      "tipo": "opcion",
+      "enunciado": "El router del colegio sigue con la clave de fábrica «admin». ¿Qué haces primero?",
+      "opciones": [
+        "Cambiar la clave de administrador por una larga y única",
+        "Reiniciar el router",
+        "Ocultar el router detrás de un mueble"
+      ],
+      "respuestaCorrecta": "Cambiar la clave de administrador por una larga y única",
+      "pista": "Reiniciar no cambia quién conoce la clave.",
+      "explicacion": "Las claves de fábrica son públicas. Reiniciar o esconder el router no las cambia."
+    },
+    {
+      "id": "m3-r05",
+      "mision": 2,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 2 de la misión 2.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    },
+    {
+      "id": "m3-r06",
+      "mision": 2,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 3 de la misión 2.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    }
+  ]
+}

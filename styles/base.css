@@ -1,0 +1,88 @@
+/* Estilo común de Guardianes Digitales. Solo lo edita el Integrador.
+   Clases del núcleo: .gd-   |   Clases de cada mundo: .m1-  .m2-  .m3-  .m4-  (en su estilo.css) */
+
+:root {
+  --gd-fondo: #0B1F3A;      /* azul noche */
+  --gd-panel: #12305A;
+  --gd-borde: #24497A;
+  --gd-texto: #E8F0FA;
+  --gd-cian: #22D3EE;       /* acento */
+  --gd-ok: #34D399;         /* acierto */
+  --gd-error: #F87171;      /* error */
+  --gd-alerta: #FBBF24;     /* pista / aviso */
+  --gd-fuente: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--gd-fondo);
+  color: var(--gd-texto);
+  font-family: var(--gd-fuente);
+  font-size: 18px;          /* letra mínima: 16 px */
+  line-height: 1.45;
+}
+
+/* Barra superior (la dibuja el núcleo, no los mundos) */
+.gd-hud {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; gap: 1.5rem; align-items: center; justify-content: space-between;
+  padding: .6rem 1.2rem;
+  background: var(--gd-panel);
+  border-bottom: 2px solid var(--gd-cian);
+}
+.gd-hud__tiempo, .gd-hud__puntos { font-variant-numeric: tabular-nums; font-weight: 600; }
+.gd-hud__tiempo--poco { color: var(--gd-error); }
+
+.gd-pantalla { max-width: 900px; margin: 1.2rem auto; padding: 0 1rem; }
+
+.gd-card {
+  background: var(--gd-panel);
+  border: 1px solid var(--gd-borde);
+  border-radius: 12px;
+  padding: 1.2rem 1.4rem;
+  margin-bottom: 1rem;
+}
+.gd-card h2 { margin-top: 0; font-size: 1.2rem; }
+.gd-etiqueta { color: var(--gd-cian); font-size: .85rem; text-transform: uppercase; letter-spacing: .06em; margin: 0 0 .4rem; }
+
+/* Botones */
+.gd-btn {
+  display: block; width: 100%;
+  text-align: left;
+  margin: .4rem 0;
+  padding: .7rem 1rem;
+  font: inherit; color: var(--gd-texto);
+  background: #1A4278;
+  border: 2px solid var(--gd-borde);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.gd-btn:hover:not(:disabled) { border-color: var(--gd-cian); }
+.gd-btn:focus-visible { outline: 3px solid var(--gd-alerta); outline-offset: 2px; }
+.gd-btn:disabled { cursor: default; opacity: .85; }
+.gd-btn--sec { width: auto; display: inline-block; background: transparent; text-align: center; }
+
+/* Acierto / error: SIEMPRE color + ícono/texto (no depender solo del color) */
+.gd-btn.gd-ok { background: var(--gd-ok); color: #06281C; border-color: var(--gd-ok); }
+.gd-btn.gd-ok::before { content: "✔ "; }
+.gd-btn.gd-error { background: var(--gd-error); color: #3A0A0A; border-color: var(--gd-error); }
+.gd-btn.gd-error::before { content: "✖ "; }
+
+.gd-explicacion { margin: .8rem 0; min-height: 1.5rem; }
+.gd-aviso { color: var(--gd-alerta); }
+
+/* Tablas de resumen */
+.gd-tabla { width: 100%; border-collapse: collapse; margin: .5rem 0 1rem; }
+.gd-tabla td { padding: .35rem .5rem; border-bottom: 1px solid var(--gd-borde); }
+.gd-tabla td:last-child { text-align: right; font-variant-numeric: tabular-nums; }
+
+/* Registro del simulador (solo desarrollo) */
+.gd-log {
+  max-width: 900px; margin: 1rem auto; padding: .8rem;
+  background: #07142A; border: 1px solid var(--gd-borde); border-radius: 8px;
+  font: 14px/1.4 Consolas, monospace; max-height: 200px; overflow: auto; white-space: pre-wrap;
+}
+details { max-width: 900px; margin: 0 auto 2rem; padding: 0 1rem; }
+a { color: var(--gd-cian); }

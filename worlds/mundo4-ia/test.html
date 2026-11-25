@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prueba · Dimensión de la IA</title>
+  <link rel="stylesheet" href="../../styles/base.css">
+</head>
+<body>
+  <!-- Abrir con Live Server (clic derecho → Open with Live Server). NO con doble clic. -->
+  <div id="raiz"></div>
+  <script type="module">
+    import mundo from "./index.js";
+    import { montarSimulador } from "../../dev/mock-core.js";
+    montarSimulador(mundo, document.getElementById("raiz"));
+  </script>
+</body>
+</html>

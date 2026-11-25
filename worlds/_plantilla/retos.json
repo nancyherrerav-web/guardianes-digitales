@@ -1,0 +1,89 @@
+{
+  "mundo": 0,
+  "retos": [
+    {
+      "id": "m0-r01",
+      "mision": 1,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 1 de la misión 1.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    },
+    {
+      "id": "m0-r02",
+      "mision": 1,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 2 de la misión 1.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    },
+    {
+      "id": "m0-r03",
+      "mision": 1,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 3 de la misión 1.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    },
+    {
+      "id": "m0-r04",
+      "mision": 2,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 1 de la misión 2.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    },
+    {
+      "id": "m0-r05",
+      "mision": 2,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 2 de la misión 2.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    },
+    {
+      "id": "m0-r06",
+      "mision": 2,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 3 de la misión 2.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    }
+  ]
+}

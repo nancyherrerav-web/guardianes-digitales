@@ -1,0 +1,5 @@
+/* Estilos del mundo 4. TODAS las clases empiezan con .m4-  (así no rompen otros mundos).
+   Los colores y botones comunes ya vienen de styles/base.css (variables --gd-...). */
+
+.m4-opciones { margin: 1rem 0; }
+.m4-reto h2 { line-height: 1.35; }

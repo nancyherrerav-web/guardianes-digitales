@@ -1,0 +1,88 @@
+{
+  "mundo": 1,
+  "retos": [
+    {
+      "id": "m1-r01",
+      "mision": 1,
+      "tipo": "opcion",
+      "enunciado": "Recibes este correo de «Banco Andino Demo» <soporte@bancoandino-seguro.example>: «Tu cuenta será bloqueada en 2 horas. Confirma tus datos aquí». ¿Qué es?",
+      "opciones": [
+        "Legítimo",
+        "Falso"
+      ],
+      "respuestaCorrecta": "Falso",
+      "pista": "Fíjate en el dominio completo y en qué te piden.",
+      "explicacion": "Un banco no pide datos por correo y el dominio imita al oficial. La urgencia busca que no pienses."
+    },
+    {
+      "id": "m1-r02",
+      "mision": 1,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 2 de la misión 1.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    },
+    {
+      "id": "m1-r03",
+      "mision": 1,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 3 de la misión 1.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    },
+    {
+      "id": "m1-r04",
+      "mision": 2,
+      "tipo": "opcion",
+      "enunciado": "Un «compañero nuevo» te escribe y te pide que pases a otra app y le des el código de verificación que te llegó por SMS. ¿Qué haces?",
+      "opciones": [
+        "Le doy el código para ayudarlo",
+        "No doy el código y lo verifico por otro canal (por ejemplo, con un docente)",
+        "Le doy solo la mitad del código"
+      ],
+      "respuestaCorrecta": "No doy el código y lo verifico por otro canal (por ejemplo, con un docente)",
+      "pista": "Un código de verificación es como la llave de tu cuenta.",
+      "explicacion": "Nadie legítimo necesita tu código. Si te lo piden, es un intento de robar tu cuenta."
+    },
+    {
+      "id": "m1-r05",
+      "mision": 2,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 2 de la misión 2.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    },
+    {
+      "id": "m1-r06",
+      "mision": 2,
+      "tipo": "opcion",
+      "enunciado": "[EJEMPLO – reemplazar] Pregunta 3 de la misión 2.",
+      "opciones": [
+        "Opción A",
+        "Opción B",
+        "Opción C"
+      ],
+      "respuestaCorrecta": "Opción A",
+      "pista": "[Escribe aquí la pista]",
+      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+    }
+  ]
+}

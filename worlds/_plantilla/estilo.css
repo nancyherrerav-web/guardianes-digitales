@@ -1,0 +1,5 @@
+/* Estilos del mundo 0. TODAS las clases empiezan con .m0-  (así no rompen otros mundos).
+   Los colores y botones comunes ya vienen de styles/base.css (variables --gd-...). */
+
+.m0-opciones { margin: 1rem 0; }
+.m0-reto h2 { line-height: 1.35; }
