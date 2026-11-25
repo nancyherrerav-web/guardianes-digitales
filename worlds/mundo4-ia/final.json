@@ -1,0 +1,119 @@
+{
+  "rumores": [
+    {
+      "id": "clases",
+      "escena": "comunicado",
+      "titulo": "«Mañana se suspenden las clases»",
+      "texto": "Un comunicado con sello y logo circula por todos los grupos. Tiene errores de ortografía y no indica quién lo firma.",
+      "compartidos": 2400
+    },
+    {
+      "id": "datos",
+      "escena": "captura",
+      "titulo": "«Filtraron los datos de todos los alumnos»",
+      "texto": "Una captura alarmista dice que se robaron 12 480 registros y pide descargar una lista desde un enlace desconocido.",
+      "compartidos": 5100
+    }
+  ],
+  "etapas": [
+    {
+      "id": "reaccion",
+      "titulo": "Primera reacción",
+      "tiempo": 20,
+      "variantes": [
+        {
+          "enunciado": "El mensaje llega a tu grupo y todos empiezan a reenviarlo. ¿Cuál es tu primera acción?",
+          "opciones": [
+            "Pausar: no lo reenvío hasta verificarlo",
+            "Reenviarlo rápido para avisar a todos",
+            "Reenviarlo con «no sé si es verdad»",
+            "Borrar el chat para que nadie lo vea"
+          ],
+          "respuestaCorrecta": "Pausar: no lo reenvío hasta verificarlo",
+          "explicacion": "Antes de verificar, no se difunde. Un reenvío con duda sigue ayudando a que el rumor se propague."
+        },
+        {
+          "enunciado": "Tus amigos te escriben «¡mira esto, es urgente!». Aún no sabes si es verdad. ¿Qué haces?",
+          "opciones": [
+            "Detengo el reenvío y empiezo a revisar su origen",
+            "Lo comparto, que cada uno decida",
+            "Pongo un emoji de alerta y lo reenvío",
+            "Pregunto en el grupo quién cree que es verdad"
+          ],
+          "respuestaCorrecta": "Detengo el reenvío y empiezo a revisar su origen",
+          "explicacion": "Frenar a tiempo es lo más efectivo. Votar en el grupo no es verificar."
+        }
+      ]
+    },
+    {
+      "id": "evidencia",
+      "titulo": "Buscar evidencia",
+      "tiempo": 20,
+      "variantes": [
+        {
+          "enunciado": "¿Cuál es la mejor forma de comprobar si este mensaje es auténtico?",
+          "opciones": [
+            "Buscar la fuente original y ver si algún medio o canal oficial lo confirma",
+            "Contar cuánta gente ya lo compartió",
+            "Comprobar que el mensaje se vea profesional",
+            "Preguntarle a un chatbot si le parece verdadero"
+          ],
+          "respuestaCorrecta": "Buscar la fuente original y ver si algún medio o canal oficial lo confirma",
+          "explicacion": "La verdad se comprueba en la fuente original y en canales oficiales. Un diseño profesional o una IA que opina no son evidencia."
+        },
+        {
+          "enunciado": "Quieres saber si la imagen del mensaje es real o está fuera de contexto. ¿Qué herramienta ayuda más?",
+          "opciones": [
+            "Hacer una búsqueda inversa de la imagen para ver dónde apareció antes",
+            "Ampliar la imagen para ver su resolución",
+            "Fijarte en cuántos «me gusta» tiene",
+            "Ver si la imagen está en blanco y negro"
+          ],
+          "respuestaCorrecta": "Hacer una búsqueda inversa de la imagen para ver dónde apareció antes",
+          "explicacion": "La búsqueda inversa muestra el origen y las fechas anteriores de una imagen."
+        }
+      ]
+    },
+    {
+      "id": "presion",
+      "titulo": "Presión social",
+      "tiempo": 20,
+      "variantes": [
+        {
+          "enunciado": "Un compañero te dice: «Todos lo están compartiendo, si no lo haces quedas mal». ¿Qué respondes?",
+          "opciones": [
+            "Que primero prefiero ver la fuente, y que si es falso lo avisaré",
+            "Lo comparto para no quedar mal",
+            "Lo comparto, pero solo en un grupo pequeño",
+            "Ignoro el mensaje y no digo nada"
+          ],
+          "respuestaCorrecta": "Que primero prefiero ver la fuente, y que si es falso lo avisaré",
+          "explicacion": "Se puede resistir la presión con respeto y ayudar a otros a verificar."
+        },
+        {
+          "enunciado": "Alguien insiste: «¡Mi primo lo vio y dice que es cierto!». ¿Qué haces?",
+          "opciones": [
+            "Pido el enlace o la fuente original, porque un «alguien lo vio» no es evidencia",
+            "Le creo, es de confianza",
+            "Lo comparto con su nombre como garantía",
+            "Le digo que está mintiendo"
+          ],
+          "respuestaCorrecta": "Pido el enlace o la fuente original, porque un «alguien lo vio» no es evidencia",
+          "explicacion": "Un testimonio sin fuente es otro eslabón del rumor. Se pide la fuente sin atacar a la persona."
+        }
+      ]
+    }
+  ],
+  "protocolo": {
+    "titulo": "Protocolo del Ojo Crítico",
+    "instruccion": "Toca los pasos en el orden correcto.",
+    "pasos": [
+      "Pausar: no reenviar el mensaje",
+      "Buscar la fuente original",
+      "Revisar el origen de la imagen (búsqueda inversa)",
+      "Contrastar con otra fuente confiable",
+      "Consultar a un docente o adulto de confianza",
+      "Decidir: compartir solo lo verificado, o avisar que es falso"
+    ]
+  }
+}
