@@ -4,87 +4,276 @@
     {
       "id": "m4-r01",
       "mision": 1,
-      "tipo": "opcion",
-      "enunciado": "Una foto muestra a un grupo de estudiantes sonriendo. ¿Qué detalle te haría sospechar más que fue generada con IA?",
+      "tipo": "imagen",
+      "visor": {
+        "tipo": "imagen",
+        "escena": "mano",
+        "archivo": "selfie_promo.jpg"
+      },
+      "enunciado": "Una publicación viral dice: «Selfie real de la fiesta de promoción». ¿Qué detalle delata mejor que podría ser una imagen generada con IA?",
       "opciones": [
-        "Una mano con seis dedos",
-        "Que la foto es brillante",
-        "Que hay muchas personas"
+        "La mano del frente tiene seis dedos",
+        "Las luces tienen colores muy vivos",
+        "La foto es horizontal y no vertical",
+        "Hay confeti y globos al fondo"
       ],
-      "respuestaCorrecta": "Una mano con seis dedos",
-      "pista": "Las manos y los textos suelen fallar en las imágenes de IA.",
-      "explicacion": "Las manos deformes, los textos ilegibles y las sombras incoherentes son señales típicas. Que sea brillante o tenga mucha gente no prueba nada."
+      "respuestaCorrecta": "La mano del frente tiene seis dedos",
+      "pista": "Las IA de imagen fallan mucho al dibujar manos.",
+      "explicacion": "Manos con dedos de más o de menos son una señal clásica. Los colores, el formato o el confeti no prueban nada: una foto real también puede tenerlos."
     },
     {
       "id": "m4-r02",
       "mision": 1,
-      "tipo": "opcion",
-      "enunciado": "[EJEMPLO – reemplazar] Pregunta 2 de la misión 1.",
+      "tipo": "imagen",
+      "visor": {
+        "tipo": "imagen",
+        "escena": "cartel",
+        "archivo": "biblioteca_inauguracion.jpg"
+      },
+      "enunciado": "Circula una foto «histórica» de la inauguración de una biblioteca. ¿Qué detalle te haría dudar de que sea auténtica?",
       "opciones": [
-        "Opción A",
-        "Opción B",
-        "Opción C"
+        "El cartel y la placa tienen letras deformadas o sin sentido",
+        "El cielo de la foto es muy azul",
+        "El edificio se ve antiguo",
+        "No aparece ninguna persona"
       ],
-      "respuestaCorrecta": "Opción A",
-      "pista": "[Escribe aquí la pista]",
-      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+      "respuestaCorrecta": "El cartel y la placa tienen letras deformadas o sin sentido",
+      "pista": "Lee con calma el texto escrito dentro de la imagen.",
+      "explicacion": "La IA suele inventar textos con letras mezcladas o palabras que no existen. Un cielo azul, un edificio viejo o una calle vacía son perfectamente posibles en fotos reales."
     },
     {
       "id": "m4-r03",
       "mision": 1,
-      "tipo": "opcion",
-      "enunciado": "[EJEMPLO – reemplazar] Pregunta 3 de la misión 1.",
+      "tipo": "imagen",
+      "visor": {
+        "tipo": "imagen",
+        "escena": "sombras",
+        "archivo": "parque_mediodia.jpg"
+      },
+      "enunciado": "Observa la escena del parque, que tiene un solo sol. ¿Qué incoherencia física tiene la imagen?",
       "opciones": [
-        "Opción A",
-        "Opción B",
-        "Opción C"
+        "Las sombras de los postes caen en direcciones opuestas",
+        "El pasto es demasiado verde",
+        "Solo hay un árbol en el parque",
+        "El sol se ve más pequeño de lo normal"
       ],
-      "respuestaCorrecta": "Opción A",
-      "pista": "[Escribe aquí la pista]",
-      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+      "respuestaCorrecta": "Las sombras de los postes caen en direcciones opuestas",
+      "pista": "Con una sola fuente de luz, todas las sombras apuntan al mismo lado.",
+      "explicacion": "Con un solo sol, las sombras deben ser paralelas. Sombras contrarias delatan una imagen compuesta o generada. El color del pasto o la cantidad de árboles no son evidencia."
     },
     {
       "id": "m4-r04",
-      "mision": 2,
-      "tipo": "opcion",
-      "enunciado": "«Diario Horizonte Hoy»: «¡URGENTE! El colegio cerrará para siempre mañana. ¡Comparte antes de que lo borren!». No tiene autor, fecha ni fuente. ¿Qué haces primero?",
+      "mision": 1,
+      "tipo": "imagen",
+      "visor": {
+        "tipo": "imagen",
+        "escena": "reflejo",
+        "archivo": "lago_amanecer.jpg"
+      },
+      "enunciado": "Una página afirma que esta foto del lago fue «tomada con un celular sin edición». ¿Qué detalle te hace sospechar?",
       "opciones": [
-        "Lo comparto a mis contactos",
-        "Busco el aviso en la web oficial del colegio o pregunto a un docente",
-        "Comento que es mentira sin comprobarlo",
-        "Lo ignoro y no digo nada"
+        "El reflejo en el agua no coincide con la montaña ni con la casa",
+        "La montaña tiene nieve en la cima",
+        "El amanecer tiene colores cálidos",
+        "El lago se ve muy tranquilo"
       ],
-      "respuestaCorrecta": "Busco el aviso en la web oficial del colegio o pregunto a un docente",
-      "pista": "Antes de reaccionar, ¿dónde confirmarías que es verdad?",
-      "explicacion": "Primero se verifica en la fuente oficial. Compartir sin verificar es lo que hace viral a un rumor."
+      "respuestaCorrecta": "El reflejo en el agua no coincide con la montaña ni con la casa",
+      "pista": "Compara lo que está arriba con lo que aparece reflejado abajo.",
+      "explicacion": "Un reflejo real es una copia espejada del paisaje. Si la forma cambia, la imagen fue manipulada o generada. La nieve, los colores cálidos o el agua calma son normales."
     },
     {
       "id": "m4-r05",
-      "mision": 2,
-      "tipo": "opcion",
-      "enunciado": "[EJEMPLO – reemplazar] Pregunta 2 de la misión 2.",
+      "mision": 1,
+      "tipo": "imagen",
+      "visor": {
+        "tipo": "imagen",
+        "escena": "reloj",
+        "archivo": "plaza_historica.jpg"
+      },
+      "enunciado": "Te comparten la foto de un reloj público. ¿Qué detalle sugiere que la imagen no es una foto real?",
       "opciones": [
-        "Opción A",
-        "Opción B",
-        "Opción C"
+        "Hay números repetidos y manecillas que no corresponden a ninguna hora",
+        "El reloj tiene un marco de madera",
+        "Se ve muy grande en la imagen",
+        "Tiene un fondo oscuro"
       ],
-      "respuestaCorrecta": "Opción A",
-      "pista": "[Escribe aquí la pista]",
-      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+      "respuestaCorrecta": "Hay números repetidos y manecillas que no corresponden a ninguna hora",
+      "pista": "Cuenta los números de la esfera con atención.",
+      "explicacion": "Los números repetidos o fuera de orden y las manecillas imposibles son fallos típicos de la IA. El marco, el tamaño o el fondo no aportan evidencia."
     },
     {
       "id": "m4-r06",
-      "mision": 2,
-      "tipo": "opcion",
-      "enunciado": "[EJEMPLO – reemplazar] Pregunta 3 de la misión 2.",
+      "mision": 1,
+      "tipo": "imagen",
+      "visor": {
+        "tipo": "imagen",
+        "escena": "ciclista",
+        "archivo": "ciclista_calle.jpg"
+      },
+      "enunciado": "En esta foto el fondo está borroso, pero el cartel de STOP se lee perfecto. Un compañero afirma: «¡Está desenfocada, seguro es IA!». ¿Cuál es la mejor conclusión?",
       "opciones": [
-        "Opción A",
-        "Opción B",
-        "Opción C"
+        "El desenfoque por movimiento es normal en fotos reales; no prueba nada, hay que verificar su origen y fecha",
+        "Es IA, porque el fondo está borroso",
+        "Es real, porque el texto se lee bien y no hace falta verificar",
+        "Es real, porque tiene muchos detalles"
       ],
-      "respuestaCorrecta": "Opción A",
-      "pista": "[Escribe aquí la pista]",
-      "explicacion": "[Escribe aquí por qué es correcta y qué aprende el escolar]"
+      "respuestaCorrecta": "El desenfoque por movimiento es normal en fotos reales; no prueba nada, hay que verificar su origen y fecha",
+      "pista": "Un solo detalle casi nunca basta para decidir.",
+      "explicacion": "Ni el desenfoque ni un texto legible prueban algo por sí solos. Las fotos reales también salen borrosas, y las IA actuales también aciertan con textos. Lo sensato es rastrear el origen, la fecha y la fuente."
+    },
+    {
+      "id": "m4-r07",
+      "mision": 2,
+      "tipo": "noticia",
+      "visor": {
+        "tipo": "noticia",
+        "medio": "Diario Horizonte Hoy",
+        "titulo": "URGENTE: nueva ley prohibirá los celulares en todo el país desde el lunes",
+        "cuerpo": "Según «fuentes cercanas», el gobierno firmó anoche un decreto secreto. Los estudiantes deberán entregar sus teléfonos en la puerta. ¡Comparte antes de que lo borren!",
+        "fuente": "horizonte-hoy.example",
+        "compartidos": "47 mil compartidos"
+      },
+      "enunciado": "Tu grupo de clase comparte esta noticia con aspecto de diario. ¿Qué haces primero?",
+      "opciones": [
+        "Busco la información en una fuente oficial o la consulto con mi docente antes de compartirla",
+        "La comparto: tiene muchos compartidos, así que debe ser cierta",
+        "La comparto con la nota «no sé si es verdad»",
+        "Confío en ella porque el titular suena serio"
+      ],
+      "respuestaCorrecta": "Busco la información en una fuente oficial o la consulto con mi docente antes de compartirla",
+      "pista": "Fíjate en la presión: «comparte antes de que lo borren».",
+      "explicacion": "Una noticia seria cita fuentes verificables. La urgencia, las «fuentes cercanas» y los miles de compartidos no son pruebas. Primero se verifica y después se comparte."
+    },
+    {
+      "id": "m4-r08",
+      "mision": 2,
+      "tipo": "audio",
+      "visor": {
+        "tipo": "audio",
+        "de": "Tía Rosa",
+        "numero": "Número desconocido",
+        "duracion": "0:14",
+        "transcripcion": "«Hijo, tuve un accidente y estoy muy asustada. Necesito que me transfieras 500 soles ahora mismo. No le cuentes a nadie, por favor.»"
+      },
+      "enunciado": "Recibes este mensaje de voz. La voz suena idéntica a la de tu tía, pero el número es desconocido. ¿Qué haces?",
+      "opciones": [
+        "Cuelgo y llamo al número de siempre de mi tía, o consulto a otro familiar, antes de hacer nada",
+        "Transfiero rápido, porque la voz es idéntica",
+        "Respondo a ese número pidiéndole más datos",
+        "Le pido que me mande una foto como prueba"
+      ],
+      "respuestaCorrecta": "Cuelgo y llamo al número de siempre de mi tía, o consulto a otro familiar, antes de hacer nada",
+      "pista": "La IA puede clonar una voz con pocos segundos de audio.",
+      "explicacion": "Las voces pueden clonarse. La urgencia y el «no le digas a nadie» son típicos de estafas. Se verifica por un canal que ya conoces. Una foto también puede falsificarse."
+    },
+    {
+      "id": "m4-r09",
+      "mision": 2,
+      "tipo": "chat",
+      "visor": {
+        "tipo": "chat",
+        "nombre": "BecaBot · Asistente",
+        "mensajes": [
+          {
+            "de": "bot",
+            "texto": "¡Felicidades! Ganaste una beca de tecnología gratis 🎉"
+          },
+          {
+            "de": "bot",
+            "texto": "Para enviártela necesito tu DNI, tu dirección y la clave de tu correo."
+          },
+          {
+            "de": "bot",
+            "texto": "Responde en 2 minutos o perderás el premio."
+          }
+        ]
+      },
+      "enunciado": "Un chatbot de IA que no conoces te escribe este mensaje. ¿Cuál es la respuesta más segura?",
+      "opciones": [
+        "No entrego datos personales ni claves; un servicio legítimo nunca pide tu contraseña",
+        "Entrego mi DNI y dirección, pero no la clave",
+        "Entrego todo: es un asistente de IA, así que es seguro",
+        "Doy datos falsos y mi clave verdadera"
+      ],
+      "respuestaCorrecta": "No entrego datos personales ni claves; un servicio legítimo nunca pide tu contraseña",
+      "pista": "Ningún servicio serio te pide la clave de tu correo.",
+      "explicacion": "Pedir claves, datos personales y apurarte son señales de fraude. Que sea una IA no lo hace confiable. No compartas DNI, dirección ni contraseñas con desconocidos."
+    },
+    {
+      "id": "m4-r10",
+      "mision": 2,
+      "tipo": "video",
+      "visor": {
+        "tipo": "video",
+        "nombre": "Sr. Director (llamada en vivo)",
+        "escena": "rostro",
+        "dialogo": "«Necesito que compres tarjetas de regalo ahora mismo y me envíes los códigos. Es confidencial y muy urgente.»",
+        "nota": "La imagen parpadea y la boca no coincide con la voz."
+      },
+      "enunciado": "En una videollamada, alguien que parece ser el director te pide esto. La imagen parpadea y se desfasa. ¿Qué haces?",
+      "opciones": [
+        "Termino la llamada y verifico por un canal oficial, llamando al colegio o hablando en persona",
+        "Compro las tarjetas: lo estoy viendo y es el director",
+        "Le pido que se acerque más a la cámara",
+        "Compro solo una tarjeta para probar"
+      ],
+      "respuestaCorrecta": "Termino la llamada y verifico por un canal oficial, llamando al colegio o hablando en persona",
+      "pista": "Los deepfakes fallan en los bordes del rostro y en la boca.",
+      "explicacion": "Los deepfakes permiten suplantar rostro y voz. Ante una petición de dinero o códigos, se corta y se verifica por otro canal. Pedirle que se acerque no prueba nada."
+    },
+    {
+      "id": "m4-r11",
+      "mision": 2,
+      "tipo": "post",
+      "visor": {
+        "tipo": "post",
+        "autor": "AlertaCiudad24",
+        "texto": "¡FOTOS DE HOY! Inundación en nuestra ciudad. ¡Compartan para que llegue ayuda!",
+        "escena": "inundacion",
+        "likes": "18 mil",
+        "comentarios": [
+          "Qué horror, comparto",
+          "Dios mío, ¿dónde es?"
+        ],
+        "aviso": "Búsqueda inversa: esta foto ya circulaba en 2017 y fue tomada en otra ciudad."
+      },
+      "enunciado": "Una búsqueda inversa de la foto muestra que es de 2017 y de otro lugar. ¿Qué conclusión es la más correcta?",
+      "opciones": [
+        "Es una foto real usada fuera de contexto: no sirve como prueba de lo de hoy y no la comparto como actual",
+        "Como la foto es real, lo que dice el post es cierto",
+        "La foto es de IA porque es antigua",
+        "Entonces la inundación nunca ocurrió"
+      ],
+      "respuestaCorrecta": "Es una foto real usada fuera de contexto: no sirve como prueba de lo de hoy y no la comparto como actual",
+      "pista": "Una imagen verdadera puede acompañar una afirmación falsa.",
+      "explicacion": "Esto se llama contenido fuera de contexto. Que la foto sea vieja no demuestra que sea IA ni que el hecho de hoy no ocurra: solo que esta imagen no sirve como prueba."
+    },
+    {
+      "id": "m4-r12",
+      "mision": 2,
+      "tipo": "post",
+      "visor": {
+        "tipo": "post",
+        "autor": "Promo_Oficial_77",
+        "texto": "Este producto cambió mi vida. ¡Todos deberían tenerlo!",
+        "likes": "52 mil",
+        "comentarios": [
+          "Increíble, gracias",
+          "Increíble, gracias",
+          "Increíble, gracias"
+        ],
+        "aviso": "Los 3 000 comentarios son iguales y vienen de cuentas creadas hoy, sin foto."
+      },
+      "enunciado": "Un post tiene miles de comentarios idénticos de cuentas creadas hoy. ¿Qué indica con mayor probabilidad?",
+      "opciones": [
+        "Actividad coordinada de bots para aparentar popularidad; los «me gusta» no prueban que sea verdad",
+        "Que es cierto, porque lo apoya mucha gente",
+        "Que son fans reales muy entusiasmados",
+        "Que la cuenta es oficial y confiable"
+      ],
+      "respuestaCorrecta": "Actividad coordinada de bots para aparentar popularidad; los «me gusta» no prueban que sea verdad",
+      "pista": "Desconfía de comentarios copiados y cuentas recién creadas.",
+      "explicacion": "Los bots pueden fabricar apoyo para que algo parezca popular y creíble. La popularidad no es evidencia de verdad."
     }
   ]
 }

@@ -1,26 +1,23 @@
-# Dimensión de la IA (mundo 4)
+# Mundo 4 · Dimensión de la IA ("Ojo Crítico")
 
-**Equipo:** Personas 6 y 7 (líder del mundo 4: Persona 7)
-**Rama:** `mundo4-ia`  ·  **Carpeta:** `worlds/mundo4-ia/`
+Cómo probarlo: Live Server → clic derecho en `test.html` → *Open with Live Server*.
 
-## Qué hay ya en esta carpeta
-- `index.js`: ejemplo **funcional** del contrato. Ya suma puntos de verdad en el simulador.
-- `retos.json`: 2 retos de ejemplo reales y el resto marcados `[EJEMPLO – reemplazar]`.
-- `estilo.css`: tus estilos (clases con prefijo `.m4-`).
-- `test.html`: abre este archivo con **Live Server** para probar el mundo.
+## Qué contiene
+- `index.js` – lógica del mundo (contrato del núcleo). 2 misiones × 3 retos + desafío final.
+- `retos.json` – banco de 12 retos (6 por misión). Cada partida sortea 3 por misión y **baraja las 4 opciones**.
+- `final.json` – rumores (2), decisiones (3 etapas × 2 variantes) y protocolo de 6 pasos. También se sortean.
+- `escenas.js` – ilustraciones SVG e íconos (todo dibujado en código, sin imágenes externas).
+- `efectos.js` – lluvia de código y sonidos (botón de silencio arriba a la derecha).
+- `img/` – arte del mundo (escudo, guardián "GD" e íconos recortados de las imágenes del equipo).
+- `estilo.css` – tema neón; todas las clases empiezan con `.m4-`.
 
-## Qué falta (marca lo que vayas terminando)
-- [ ] 12 retos en `retos.json` (6 por misión), todos con pista y explicación
-- [ ] Misión 1 con su pantalla propia (ver Ficha 4 de la guía)
-- [ ] Misión 2 con su pantalla propia
-- [ ] Desafío final real (hoy es un marcador de posición)
-- [ ] `detener()` probado (dejar que se acabe el tiempo)
-- [ ] Probado: partida perfecta, con errores y pistas, y sin tiempo
-- [ ] Una partida normal dura entre 4 y 5 minutos
-- [ ] Prueba cruzada con otro equipo
+## Reglas del mundo
+- Acierto +100, error −50, pista −25 (la pista se pide antes de responder). Misión +200 (+100 sin errores ni pistas).
+- Desafío final: cada decisión mal o fuera de tiempo (20 s) = −50; cada toque equivocado en el protocolo = −50 (máx. 3). Superado con ≤ 1 error → +300.
+- Teclado: 1-4 / A-D responden, H pista, Enter continúa.
 
-## Condición para superar el desafío final
-(Escríbela aquí en una frase cuando la definan. Ejemplo: «máximo 1 error».)
+## Cómo agregar retos
+Copia un reto de `retos.json` (mismos campos): `visor.tipo` puede ser `imagen`, `noticia`, `audio`, `chat`, `video` o `post`. `respuestaCorrecta` debe ser idéntica a una de las 4 `opciones`. Para una imagen nueva, agrega una función en `ESCENAS` (`escenas.js`).
 
-## Notas del equipo
-(Decisiones, dudas, cosas que el Integrador debe saber.)
+## Aviso al Integrador
+El mundo dibuja su marco dentro del contenedor. Al terminar, el núcleo debe limpiar el contenedor antes de dibujar el resumen final (el simulador ya lo hace). Todo el contenido es ficticio.
